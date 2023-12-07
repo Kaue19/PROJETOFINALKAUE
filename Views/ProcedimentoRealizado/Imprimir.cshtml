@@ -1,0 +1,41 @@
+﻿@page
+@model ProjetoFinalKaue.Models.ProcedimentoRealizado
+@{
+    Layout = null;
+}
+
+
+
+<div>
+    <html>
+
+    <head>
+        <title>Laboratório do Exame</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="~/css/Imprimir.css" asp-append-version="true" />
+    </head>
+    <main>
+        <h1>Exame</h1>
+        <img style="width:100px;height:100px" src="~/Img/cropped-LOGO-SETEMED-1-1.png" />
+
+        <div>
+            <h2 class="alinhar">Cliente: @Html.DisplayFor(model => model.Cliente.ClienteNome)</h2>
+            <h2 class="alinhar">Sexo: @Html.DisplayFor(model => model.Cliente.ClienteSexo)</h2>
+            <h2 class="alinhar">Local: @Html.DisplayFor(model => model.LocalRealizacao.LocalNome)</h2>
+            <h2 class="alinhar">Cpf: @Html.DisplayFor(model => model.Cliente.ClienteCpf)</h2>
+            <h2 class="alinhar">Endereço: @Html.DisplayFor(model => model.Cliente.ClienteEndereco)</h2>
+            <h2 class="alinhar">Clínica: K.G.A</h2>
+        </div>
+        <h2 class="coletah">Data da Realização: @Html.DisplayFor(model => model.DataRealizacao)</h2>
+
+        <h2 class="alinhar">Procedimento: @Html.DisplayFor(model => model.Procedimento.ProcedimentoNome)</h2>
+        <hr>
+        <div>
+            <h3 class="mrl">Observação do Exame: @Html.DisplayFor(model => model.ObservacaoRealizacao)</h3>
+            <h3 class="mrl">Colaborador: @Html.DisplayFor(model => model.Colaborador.ColaboradorNome)</h3>
+        </div>
+        <hr>
+        <h3 class="mrl">Metodologia: Jaffé Automatizado</h3>
+    </main>
+</html>
+</div>

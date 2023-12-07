@@ -1,0 +1,54 @@
+﻿body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #CCE4FF;
+}
+
+.text-center {
+    margin-left: 33.5%;
+    margin-top: 8%;
+    background-color: #9CB4F5;
+    width: 500px;
+    height: 520px;
+    border-radius: 30px;
+    border: 2px #000000 solid;
+}
+
+.Caxinha {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Caxinha2 {
+    margin-left: 173px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.Caxinha3 {
+    text-align: center;
+    background-color: snow;
+    color: #7183EB;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+    padding: 0.150rem 0.250rem;
+    height: 50px;
+    width: 150px;
+}
+
+.Caxinha3:hover {
+    background-color: #53A8EB;
+    color: white;
+}
+
+.Labels {
+    display: block;
+}
+
+.Inputs {
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+﻿body {
+    background-image: url(/Img/lab46.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.display-4 {
+    margin-top: 10%;
+    color: white;
+}
